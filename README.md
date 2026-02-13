@@ -38,6 +38,13 @@ npm run build
 npm run preview
 ```
 
+## Deploy auf Vercel
+
+1. Repo mit GitHub verbinden und auf [vercel.com](https://vercel.com) importieren.
+2. **Build Command:** `npm run build` (Standard)
+3. **Output Directory:** `dist` (Standard)
+4. **Deploy** – Vercel erkennt Vite automatisch. SPA-Routing ist über `vercel.json` konfiguriert.
+
 ## Projektstruktur
 
 ```
