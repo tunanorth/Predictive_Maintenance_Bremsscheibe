@@ -1,0 +1,38 @@
+[
+  {
+    "id": "it_155mm",
+    "name": "155mm Artilleriegranate HE",
+    "nato_code": "1310-12-345-6789",
+    "class": "1.1",
+    "compatibility_group": "D"
+  },
+  {
+    "id": "it_9mm",
+    "name": "9mm Pistolenmunition",
+    "nato_code": "1305-12-111-2222",
+    "class": "1.4",
+    "compatibility_group": "S"
+  },
+  {
+    "id": "it_rocket",
+    "name": "Panzerabwehrrakete",
+    "nato_code": "1410-12-999-0000",
+    "class": "1.2",
+    "compatibility_group": "B"
+  },
+  {
+    "id": "it_120mm",
+    "name": "120mm Panzergranate",
+    "nato_code": "1315-12-777-8888",
+    "class": "1.1",
+    "compatibility_group": "D"
+  },
+  {
+    "id": "it_5_56mm",
+    "name": "5.56mm Gewehrmunition",
+    "nato_code": "1302-12-333-4444",
+    "class": "1.4",
+    "compatibility_group": "S"
+  }
+]
+

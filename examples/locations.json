@@ -1,0 +1,73 @@
+[
+  {
+    "code": "FAC1-Z1-A01-R01-B01",
+    "facility_id": "FAC1",
+    "zone": "Z1",
+    "aisle": "A01",
+    "rack": "R01",
+    "shelf": "S01",
+    "bin": "B01",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "capacity_kg": 250.0,
+    "blocked": false
+  },
+  {
+    "code": "FAC1-Z1-A01-R01-B02",
+    "facility_id": "FAC1",
+    "zone": "Z1",
+    "aisle": "A01",
+    "rack": "R01",
+    "shelf": "S01",
+    "bin": "B02",
+    "x": 1.2,
+    "y": 0.0,
+    "z": 0.0,
+    "capacity_kg": 250.0,
+    "blocked": false
+  },
+  {
+    "code": "FAC1-Z1-A01-R01-B03",
+    "facility_id": "FAC1",
+    "zone": "Z1",
+    "aisle": "A01",
+    "rack": "R01",
+    "shelf": "S01",
+    "bin": "B03",
+    "x": 2.4,
+    "y": 0.0,
+    "z": 0.0,
+    "capacity_kg": 250.0,
+    "blocked": false
+  },
+  {
+    "code": "FAC1-Z2-A03-R04-B12",
+    "facility_id": "FAC1",
+    "zone": "Z2",
+    "aisle": "A03",
+    "rack": "R04",
+    "shelf": "S01",
+    "bin": "B12",
+    "x": 120.5,
+    "y": 45.3,
+    "z": 2.0,
+    "capacity_kg": 500.0,
+    "blocked": false
+  },
+  {
+    "code": "FAC1-Z2-A03-R04-B08",
+    "facility_id": "FAC1",
+    "zone": "Z2",
+    "aisle": "A03",
+    "rack": "R04",
+    "shelf": "S01",
+    "bin": "B08",
+    "x": 115.0,
+    "y": 45.3,
+    "z": 2.0,
+    "capacity_kg": 500.0,
+    "blocked": false
+  }
+]
+

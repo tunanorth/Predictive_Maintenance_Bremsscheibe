@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "exported_at": "2025-12-12T14:03:21.123Z",
+    "version": "1.0",
+    "facility_id": "FAC1"
+  },
+  "locations": {
+    "FAC1-Z1-A01-R01-B01": {
+      "code": "FAC1-Z1-A01-R01-B01",
+      "facility_id": "FAC1",
+      "zone": "Z1",
+      "aisle": "A01",
+      "rack": "R01",
+      "shelf": "S01",
+      "bin": "B01",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "capacity_kg": 250.0,
+      "blocked": false
+    },
+    "FAC1-Z2-A03-R04-B08": {
+      "code": "FAC1-Z2-A03-R04-B08",
+      "facility_id": "FAC1",
+      "zone": "Z2",
+      "aisle": "A03",
+      "rack": "R04",
+      "shelf": "S01",
+      "bin": "B08",
+      "x": 115.0,
+      "y": 45.3,
+      "z": 2.0,
+      "capacity_kg": 500.0,
+      "blocked": false
+    }
+  },
+  "containers": {
+    "hu_100284": {
+      "id": "hu_100284",
+      "location_code": "FAC1-Z2-A03-R04-B08",
+      "item_type_id": "it_155mm",
+      "lot_id": "lot_993",
+      "weight_kg": 120.0,
+      "status": "OK"
+    },
+    "hu_100285": {
+      "id": "hu_100285",
+      "location_code": "FAC1-Z1-A01-R01-B05",
+      "item_type_id": "it_9mm",
+      "lot_id": "lot_994",
+      "weight_kg": 45.0,
+      "status": "OK"
+    }
+  },
+  "itemTypes": {
+    "it_155mm": {
+      "id": "it_155mm",
+      "name": "155mm Artilleriegranate HE",
+      "nato_code": "1310-12-345-6789",
+      "class": "1.1",
+      "compatibility_group": "D"
+    },
+    "it_9mm": {
+      "id": "it_9mm",
+      "name": "9mm Pistolenmunition",
+      "nato_code": "1305-12-111-2222",
+      "class": "1.4",
+      "compatibility_group": "S"
+    }
+  },
+  "alerts": {
+    "alert_20251212_170000_001": {
+      "id": "alert_20251212_170000_001",
+      "ts": "2025-12-12T17:00:00.000Z",
+      "severity": "WARN",
+      "code": "CAPACITY_THRESHOLD",
+      "text": "Auslastung über 85% an Location FAC1-Z2-A03-R04-B08",
+      "location_code": "FAC1-Z2-A03-R04-B08",
+      "container_id": "hu_100284",
+      "open": true
+    }
+  },
+  "events": [
+    {
+      "event_id": "evt_20251212_140321_001",
+      "event_type": "ITEM_RECEIVED",
+      "ts": "2025-12-12T14:03:21.123Z",
+      "actor": {
+        "user_id": "u_17",
+        "device": "scanner_3"
+      },
+      "payload": {
+        "container_id": "hu_100284",
+        "to_location": "FAC1-Z2-A03-R04-B12",
+        "items": [
+          {
+            "item_type_id": "it_155mm",
+            "lot_id": "lot_993",
+            "weight_kg": 120.0
+          }
+        ],
+        "reason": "INCOMING_SHIPMENT",
+        "ref": {
+          "work_order_id": "wo_7781"
+        }
+      }
+    }
+  ]
+}
+

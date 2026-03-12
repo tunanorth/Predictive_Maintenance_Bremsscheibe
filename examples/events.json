@@ -1,0 +1,133 @@
+[
+  {
+    "event_id": "evt_20251212_140321_001",
+    "event_type": "ITEM_RECEIVED",
+    "ts": "2025-12-12T14:03:21.123Z",
+    "actor": {
+      "user_id": "u_17",
+      "device": "scanner_3"
+    },
+    "payload": {
+      "container_id": "hu_100284",
+      "to_location": "FAC1-Z2-A03-R04-B12",
+      "items": [
+        {
+          "item_type_id": "it_155mm",
+          "lot_id": "lot_993",
+          "weight_kg": 120.0
+        }
+      ],
+      "reason": "INCOMING_SHIPMENT",
+      "ref": {
+        "work_order_id": "wo_7781",
+        "shipment_id": "ship_20251212_001"
+      }
+    }
+  },
+  {
+    "event_id": "evt_20251212_140500_002",
+    "event_type": "PUTAWAY_COMPLETED",
+    "ts": "2025-12-12T14:05:00.000Z",
+    "actor": {
+      "user_id": "u_17",
+      "device": "scanner_3"
+    },
+    "payload": {
+      "container_id": "hu_100284",
+      "from_location": "FAC1-Z2-A03-R04-B12",
+      "to_location": "FAC1-Z2-A03-R04-B12",
+      "items": [
+        {
+          "item_type_id": "it_155mm",
+          "lot_id": "lot_993",
+          "weight_kg": 120.0
+        }
+      ],
+      "reason": "PUTAWAY",
+      "ref": {
+        "work_order_id": "wo_7781"
+      }
+    }
+  },
+  {
+    "event_id": "evt_20251212_141500_003",
+    "event_type": "MOVE_CONFIRMED",
+    "ts": "2025-12-12T14:15:00.000Z",
+    "actor": {
+      "user_id": "u_18",
+      "device": "scanner_5"
+    },
+    "payload": {
+      "container_id": "hu_100284",
+      "from_location": "FAC1-Z2-A03-R04-B12",
+      "to_location": "FAC1-Z2-A03-R04-B08",
+      "items": [
+        {
+          "item_type_id": "it_155mm",
+          "lot_id": "lot_993",
+          "weight_kg": 120.0
+        }
+      ],
+      "reason": "RELOCATION",
+      "ref": {
+        "work_order_id": "wo_7782"
+      }
+    }
+  },
+  {
+    "event_id": "evt_20251212_150000_004",
+    "event_type": "CYCLE_COUNT_RECORDED",
+    "ts": "2025-12-12T15:00:00.000Z",
+    "actor": {
+      "user_id": "u_20",
+      "device": "scanner_9"
+    },
+    "payload": {
+      "container_id": "hu_100284",
+      "from_location": "FAC1-Z2-A03-R04-B08",
+      "to_location": "FAC1-Z2-A03-R04-B08",
+      "items": [
+        {
+          "item_type_id": "it_155mm",
+          "lot_id": "lot_993",
+          "weight_kg": 120.0
+        }
+      ],
+      "reason": "CYCLE_COUNT",
+      "ref": {
+        "count_id": "count_20251212_001"
+      }
+    }
+  },
+  {
+    "event_id": "evt_20251212_160000_005",
+    "event_type": "LOCATION_BLOCKED",
+    "ts": "2025-12-12T16:00:00.000Z",
+    "actor": {
+      "user_id": "u_21",
+      "device": "admin_terminal"
+    },
+    "payload": {
+      "location": "FAC1-Z2-A03-R04-B12",
+      "blocked": true,
+      "reason": "MAINTENANCE"
+    }
+  },
+  {
+    "event_id": "evt_20251212_170000_006",
+    "event_type": "ALERT_RAISED",
+    "ts": "2025-12-12T17:00:00.000Z",
+    "actor": {
+      "user_id": "system",
+      "device": "rule_engine"
+    },
+    "payload": {
+      "location": "FAC1-Z2-A03-R04-B08",
+      "container_id": "hu_100284",
+      "severity": "WARN",
+      "code": "CAPACITY_THRESHOLD",
+      "text": "Auslastung über 85% an Location FAC1-Z2-A03-R04-B08"
+    }
+  }
+]
+

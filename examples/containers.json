@@ -1,0 +1,35 @@
+[
+  {
+    "id": "hu_100284",
+    "location_code": "FAC1-Z2-A03-R04-B08",
+    "item_type_id": "it_155mm",
+    "lot_id": "lot_993",
+    "weight_kg": 120.0,
+    "status": "OK"
+  },
+  {
+    "id": "hu_100285",
+    "location_code": "FAC1-Z1-A01-R01-B05",
+    "item_type_id": "it_9mm",
+    "lot_id": "lot_994",
+    "weight_kg": 45.0,
+    "status": "OK"
+  },
+  {
+    "id": "hu_100286",
+    "location_code": "FAC1-Z2-A03-R04-B10",
+    "item_type_id": "it_rocket",
+    "lot_id": "lot_995",
+    "weight_kg": 180.0,
+    "status": "PENDING_MOVE"
+  },
+  {
+    "id": "hu_100287",
+    "location_code": "FAC1-Z1-A01-R02-B06",
+    "item_type_id": "it_155mm",
+    "lot_id": "lot_996",
+    "weight_kg": 220.0,
+    "status": "BLOCKED"
+  }
+]
+
